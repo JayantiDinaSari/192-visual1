@@ -105,7 +105,7 @@ end;
 procedure TForm1.fromShow(Sender: TObject; var DragObject: TDragObject);
 begin
   //btnReset.Click;
-  btnResetClick(Sender) ;
+  btnReset.Click(Sender);
 end;
 
 procedure TForm1.Memo1Change(Sender: TObject);
